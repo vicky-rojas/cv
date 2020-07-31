@@ -1,14 +1,11 @@
 ---
-name: Marie
-surname: Curie
-position: "Professor"
-address: "School of Physics & Chemistry, École Normale Supérieure"
-phone: +1 22 3333 4444
-www: mariecurie.com
-email: "Marie.Curie@ens.fr"
-twitter: mariecurie
-github: mariecurie
-linkedin: mariecurie
+name: Cristina
+surname: Marchant
+position: "Socióloga"
+address: "Santiago, Chile"
+email: "cemarcha@uc.cl"
+github: cristinamarchant
+linkedin: cristinamarchant
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
 ---
@@ -18,53 +15,144 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```
 
-# Some stuff about me
-
- * I poisoned myself doing research.
- * I was the first woman to win a Nobel prize
- * I was the first person and only woman to win a Nobel prize in two different sciences.
-
-# Education
+# Educación
 
 ```{r}
 library(tibble)
 tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
-  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
-  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
+  ~ Grado, ~ Ano, ~ Institucion, ~ donde,
+  "Socióloga", "2014", "Pontificia Universidad Católica de Chile", "Santiago, Chile",
+  "Master en Diseño y Análisis de Encuestas Sociales", "2018", "Pontificia Universidad Católica de Chile", "Santiago, Chile") %>% 
+  detailed_entries(Grado, Ano, Institucion, donde)
 ```
 
-# Nobel Prizes
+## Intercambio académico
 
 ```{r}
 tribble(
-  ~Year, ~Type, ~Desc,
-  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+  ~ Grado, ~ Ano, ~ Institucion, ~ donde,
+  "Sociología", "2013-2014", "Università degli Studi di Bologna", "Bologna, Italia") %>% 
+  detailed_entries(Grado, Ano, Institucion, donde)
+```
+
+# Experiencia Laboral
+
+&nbsp;
+
+## Octubre 2018 - Actualidad
+
+**Jefa de Proyectos en Dirección de Estudios Sociales**, del Instituto de Sociología de la Pontificia Universidad Católica de Chile DESUC.
+
+Coordinación de proyectos, análisis de datos cuantitativos y cualitativos, diseños muestrales, construcción de factores de expansión y diseño de instrumentos.
+
+```{r}
+tribble(
+  ~Ano, ~Estudio, ~Mandante,
+  2020, "Encuesta Nacional de Derechos Humanos 2020", "INDH",
+  2019, "Encuesta Formas de violencia y ejercicio de Derechos Humanos en Barrios Priorizados", "INDH",
+  2019, "Quinta Encuesta Nacional de Calidad de Vida en el Adulto Mayor de Chile", "CEVE UC",
+  2019, "Encuesta Nacional de Acceso a la Justicia", "Poder Judicial",
+  2019, "Estudio Caracterización del usuario de la red de parques urbanos en RM", "MINVU",
+  2019, "Estudio de Consumo de Tabaco en Chile", "MIDE UC",
+  2019, "Estudio Empresas y Capital Humano RM", "CPP UC y SENCE",
+  2019, "Encuesta Nacional de Desarrollo Digital Escolar 2019", "MINEDUC",
+  2019, "Fondecyt Vulnerabilidad en Adultos Mayores en Chile: Un estudio de curso de vida sobre ventajas y desventajas acumuladas", "Ignacio Madero",
+  2018, "V Encuesta Nacional de Auditoría a la Democracia", "PNUD",
+  2018, "Encuesta de Convivencia Barrial e Interculturalidad ", "Subs. Prevención del Delito",
+  2018, "Estudio de Percepción y Posicionamiento Institucional del Ministerio Público", "Ministerio Público",
 ) %>% 
   brief_entries(
-    glue::glue("Nobel Prize in {Type}"),
-    Year, 
-    Desc
+    glue::glue("Coordinación de {Estudio}"),
+    Ano, 
+    Mandante
   )
 ```
 
-# Publications
+&nbsp;
+&nbsp;
+
+## Abril - Septiembre 2018
+
+**Consultor en Cliodinamica Ltda.**, consultora dedicada a estudios sociales y evaluaciones de impacto en el sector público y privado.
+
+Participación en proyectos, análisis de datos cuantitativos y cualitativos, y participación en diseño de instrumentos.
 
 ```{r}
-library(dplyr)
-scholar::get_publications("EmD_lTEAAAAJ&EmD_lTEAAAAJ&") %>% 
-  filter(cites > 30) %>% 
-  distinct(title, .keep_all = TRUE) %>%
-  transmute(bibtype = "Article", author = as.character(author),
-            title = as.character(title),
-            journaltitle = as.character(journal), year, key = row_number()) %>% 
-  RefManageR::as.BibEntry() %>% 
-  RefManageR::WriteBib("curie.bib")
-
-bibliography_entries("curie.bib")
+tribble(
+  ~Ano, ~Estudio, ~Mandante,
+  2018, "Encuesta Nacional de Derechos Humanos 2018", "INDH",
+  2018, "Evaluación de Impacto Programa Renueva tu Micro", "Ministerio de Transportes y Telecomunicaciones",
+  2018, "Evaluación Programa Mejores Ferias para Santiago", "FOSIS",
+  2018, "Sistematización y Análisis de Programas FOSIS I.D.E.A", "FOSIS") %>% 
+  brief_entries(
+    glue::glue("Participación en {Estudio}"),
+    Ano, 
+    Mandante
+  )
 ```
+
+&nbsp;
+&nbsp;
+
+\newpage
+## Marzo 2015 - Marzo 2018
+
+**Analista de datos en Dirección de Estudios Sociales**, del Instituto de Sociología de la Pontificia Universidad Católica de Chile DESUC.
+
+Coordinación de proyectos, análisis de datos cuantitativos y cualitativos, y participación en diseño de instrumentos. 
+
+```{r}
+tribble(
+  ~Ano, ~Estudio, ~Mandante,
+  2018, "Encuesta de Opinión de Percepción del Servicio de la Defensoría Penal Pública", "Defensoría Penal Pública",
+  2017, "Primera Encuesta Nacional de Polivictimización en Niños, Niñas y Adolescentes", "Subs. Prevención del Delito",
+  2017, "Estudio Razones de Uso de Trámites Presenciales", "SegPres",
+  2016, "Encuesta Nacional de Calidad de Vida y Salud ENCAVI 2016", "MINSAL",
+  2016, "Encuesta Nacional de Medio Ambiente y Cambio Climático 2016", "Ministerio de Medio Ambiente",
+  2016, "Encuesta Nacional de Derechos Ciudadanos 2016", "SegPres",
+  2016, "Primera Encuesta Nacional de Cultura Científica: Percepción Social sobre la Ciencia y Tecnología en Chile", "Conicyt",
+  2016, "Estudio sobre la Calidad Educativa desde la percepción de los Actores Claves del Sistema", "Agencia de Calidad de la Educación",
+  2016, "Encuesta sobre percepción de Seguridad para Lo Barnechea", "Lo Barnechea Seguridad",
+  2016, "Medición de Clima Laboral para Codelco en sus diez divisiones y centros de trabajo", "Codelco",
+  2016, "Primer estudio de Índice de Mujeres en Alta Dirección", "Mujeres Empresarias",
+  2015, "Tercera Encuesta Nacional de Violencia en el Ámbito Escolar", "Subs. Prevención del Delito",
+  2015, "Línea Base Estudio de Seguridad en los Estadios", "Subs. Prevención del Delito",
+  2015, "Encuesta Nacional sobre la Marcha Blanca de SAC en Actores Claves del Sistema ", "Agencia de Calidad de la Educación") %>% 
+  brief_entries(
+    glue::glue("Participación en {Estudio}"),
+    Ano, 
+    Mandante
+  )
+```
+
+# Experiencia académica
+
+```{r}
+tribble(
+  ~ Institucion, ~ Ano, ~ Cargo,
+  "Pontificia Universidad Católica de Chile", "2019", "Docente Metodología de la Investigación Social",
+  "Magister en Diseño y Análisis de Encuestas Sociales, Pontificia Universidad Católica de Chile", "2019", "Ayudante Muestreo en Encuestas",
+  "Pontificia Universidad Católica de Chile", "2016", "Ayudante Alimentación y Sociedad",
+  "Pontificia Universidad Católica de Chile", "2014", "Ayudante Sociología Política",
+  "Pontificia Universidad Católica de Chile", "2014", "Ayudante Lógica") %>% 
+  detailed_entries(Institucion, Ano, Cargo)
+
+```
+\newpage
+# Competencias laborales
+
+## Software
+
+* **R** para análisis estadístico, procesamiento de bases de datos y visualización de datos: Nivel intermedio
+* **SPSS** para análisis estadístico: Nivel avanzado
+* **Stata** para análisis estadístico: Nivel intermedio
+* **DeDoose** para el análisis cualitativo: Nivel intermedio
+* **Microsoft Word, Excel y Power Point**: Nivel avanzado
+
+## Idiomas
+
+* Español: Nativo
+* Inglés: Avanzado
+* Italiano: Avanzado
+
 
