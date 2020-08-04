@@ -1,11 +1,11 @@
 ---
-name: Cristina
-surname: Marchant
-position: "Socióloga"
+name: Vicky
+surname: Rojas
+position: "Psicóloga"
 address: "Santiago, Chile"
-email: "cemarcha@uc.cl"
-github: cristinamarchant
-linkedin: cristinamarchant
+email: "vicky.cra@gmail.com"
+github: vicky-rojas
+linkedin: vicky-cra
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
 ---
@@ -21,18 +21,20 @@ library(vitae)
 library(tibble)
 tribble(
   ~ Grado, ~ Ano, ~ Institucion, ~ donde,
-  "Socióloga", "2014", "Pontificia Universidad Católica de Chile", "Santiago, Chile",
-  "Master en Diseño y Análisis de Encuestas Sociales", "2018", "Pontificia Universidad Católica de Chile", "Santiago, Chile") %>% 
+  "Magíster en Sociología", "2013", "Pontificia Universidad Católica de Chile", "Santiago, Chile",
+  "Psicóloga", "2005", "Universidad de Valparaíso", "Valparaíso, Chile",
+  ) %>% 
   detailed_entries(Grado, Ano, Institucion, donde)
 ```
 
-## Intercambio académico
+## Otras formaciones
 
 ```{r}
 tribble(
-  ~ Grado, ~ Ano, ~ Institucion, ~ donde,
-  "Sociología", "2013-2014", "Università degli Studi di Bologna", "Bologna, Italia") %>% 
-  detailed_entries(Grado, Ano, Institucion, donde)
+  ~ Nombre, ~ Ano, ~ Institucion, ~ donde,
+  "Diplomado en Políticas Sociales", "2007", "Universidad Alberto Hurtado", "Santiago, Chile",
+  "Diplomado en Gestión de Riesgos y Reducción de Daños", "2009", "Universidad Central", "Santiago, Chile") %>% 
+  detailed_entries(Nombre, Ano, Institucion, donde)
 ```
 
 # Experiencia Laboral
@@ -41,18 +43,20 @@ tribble(
 
 ## Octubre 2018 - Actualidad
 
-**Jefa de Proyectos en Dirección de Estudios Sociales**, del Instituto de Sociología de la Pontificia Universidad Católica de Chile DESUC.
+**Jefa de Proyectos en Dirección de Estudios Sociales (DESUC)**, del Instituto de Sociología de la Pontificia Universidad Católica de Chile.
 
-Coordinación de proyectos, análisis de datos cuantitativos y cualitativos, diseños muestrales, construcción de factores de expansión y diseño de instrumentos.
+* Coordinación de proyectos de investigación aplicada para instituciones públicas y privadas. 
+* Coordinadora de estudios cualitativos.
+* Diseño y ejecución de análisis de datos cuantitativos. Especialista en estudios mixtos y triangulación de datos cuantitativos y cualitativos.
 
 ```{r}
 tribble(
-  ~Ano, ~Estudio, ~Mandante,
-  2020, "Encuesta Nacional de Derechos Humanos 2020", "INDH",
-  2019, "Encuesta Formas de violencia y ejercicio de Derechos Humanos en Barrios Priorizados", "INDH",
-  2019, "Quinta Encuesta Nacional de Calidad de Vida en el Adulto Mayor de Chile", "CEVE UC",
-  2019, "Encuesta Nacional de Acceso a la Justicia", "Poder Judicial",
-  2019, "Estudio Caracterización del usuario de la red de parques urbanos en RM", "MINVU",
+  ~Ano, ~Estudio, ~Funciones, ~Mandante,
+  2020, "Encuesta adversidades, Piloto", "Revisión de cuestionario para pilotaje, coordinación general","UC y Fundación para la confianza",
+  2020, "Encuesta movilidad post COVID-19", "Revisión instrumento, análisis de datos, coordinación general", "Intervial, Fundación Gonzalo Rodriguez, y CONASET",
+  2020, "Encuesta alfabetización y comportamiento financiero", "Análisis de datos, coordinación general", "Asociación de Fondos Mutuos de Chile",
+  2019, "Estudio diagnóstico embarazo adolescentes", "Investigadora senior", "INJUV",
+  2019, "Encuesta de desarrollo digital escolar", "Revisión instrumento, supervisión terreno, análisis de datos, coordinación general" "MINEDUC",
   2019, "Estudio de Consumo de Tabaco en Chile", "MIDE UC",
   2019, "Estudio Empresas y Capital Humano RM", "CPP UC y SENCE",
   2019, "Encuesta Nacional de Desarrollo Digital Escolar 2019", "MINEDUC",
