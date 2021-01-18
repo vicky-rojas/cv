@@ -49,22 +49,15 @@ tribble(
 * Coordinadora de estudios cualitativos e investigadoras/es cualitativas/os.
 * Diseño y ejecución de análisis de datos cuantitativos. Especialista en estudios mixtos y triangulación de datos cuantitativos y cualitativos.
 
-A continuación, se presenta una selección de estudios en este periodo.
+A continuación, se presenta una selección de estudios relacionados a temas de educación o infancia.
 
 ```{r}
 tribble(
   ~Ano, ~Estudio, ~Mandante,
-  2020, "Estudio Medidas Implementadas COVID-19", "SENAMA",
-  2020, "Estudio de Conocimientos, Actitudes y Prácticas con relaicón a la violencia contra la niñez en Chile", "UNICEF, Chile",
-  2020, "Estudio Cultura Organizacional para la Fuerza Aérea de Chile: Alcances del desarrollo carrera y relación laboral",  "Fuerza Aérea de Chile",
-  2020, "Encuesta adversidades, Piloto","UC y Fundación para la confianza",
-  2020, "Encuesta movilidad post COVID-19", "Intervial, Fundación Gonzalo Rodriguez, y CONASET",
+  2020, "Estudio de Conocimientos, Actitudes y Prácticas con relación a la violencia contra la niñez en Chile", "UNICEF, Chile",
   2019, "Estudio diagnóstico embarazo adolescentes",  "INJUV",
-  2019, "Estudio para caracterizar la mano de obra directa del rubro de la construcción en base a sus percepciones y a sus trayectorias formativas y laborales",  "Cámara Chilena de la Construcción",
   2019, "Estudio de trayectorias laborales",  "Facultad de Letras UC",
-  2019, "Encuesta Nacional Bicentenario UC",  "Facultad de Ciencias Sociales UC",
   2019, "Encuesta en niños, niñas y adolescentes migrantes en Chile", "UNICEF Chile, Fundación Colunga, World Vision",
-  2019, "Estudio de mercado magister en educación UC", "Facultad de educación UC",
 ) %>% 
   brief_entries(
     Estudio,
@@ -85,37 +78,19 @@ tribble(
 * Investigadora cualitativa.
 * Investigadora cuantitativa.
 
-A continuación, se presenta una selección de estudios en este periodo.
+A continuación, se presenta una selección de estudios en este periodo relacionados a temas de educación o infancia.
 
 ```{r}
 tribble(
   ~Ano, ~Estudio,  ~Mandante,
-  2018, "Estudio de Percepción y Posicionamiento Institucional del Ministerio Público", "Fiscalía de Chile",
   2018, "Análisis multivariable estudio polivictimización", "Consejo de la Infancia",
-  2018, "Estudio sobre la situación de la protección de la maternidad/paternidad al interior del poder judicial", "Secretaría de género Poder Judicial",
   2018, "Trayectorias de vida de egresados de Establecimientos Técnico-Profesionales", "OTIC SOFOFA",
-  2017, "Encuesta Alimentación y Adultos Mayores", "Centro de Aromas y Sabores DICTUC",
   2017, "Evaluación De La Implementación Del Programa Me Conecto para Aprender",  "UNESCO y MINEDUC",
   2017, "Diseño del Modelo de evaluación de la Nueva Educación Pública y Levantamiento de Línea Base",  "PNUD y MINEDUC",
-  2017, "Estudio género y academia", "Facultad de Ciencias Biológicas UC",
-  2017, "Ranking de empresas Mujeres en Alta Dirección IMAD", "Mujeres Empresarias",
-  2017, "Estudio Trabajo, Vejez y Salud", "Centro de Vejez y Envejecimiento UC",
-  2017, "Estudio Razones de uso de trámites presenciales", "Ministerio Secretaría General de la Presidencia",
   2017, "Estudio de evaluación y usabilidad de los principales productos comunicacionales de la Agencia", "Agencia de la Calidad de la Educación",
-  2016, "Estudio Participación Cultural en Chile", "Ministerio de las Culturas y las Artes",
-  2016, "Estudio de medición de la línea base de satisfacción de los usuarios con los servicios entregados por instituciones públicas", "Ministerio de Hacienda",
-  2016, "Estudio Factores que influyen en el Allegamiento Interno y Externo", "Ministerio de Vivienda y Urbanismo",
-  2016, "Estudio Participación Cultural en Chile", "Ministerio de las Culturas y las Artes",
-  2016, "Informe de Mujeres en Alta Dirección IMAD", "Mujeres Empresarias",
-  2015, "Estudio diseño, validación y establecimiento de las propiedades de medición, índices e indicadores de la Primera Encuesta de Cultura Científica en Chile", "CONICYT",
   2015, "Estudio sobre la calidad educativa desde la percepción de los actores claves del sistema: Fase cuantitativa", "Agencia de calidad de la educación",
   2015, "Encuesta nacional de percepciones, opiniones y actitudes de sostenedores, equipos directivos y docentes sobre la marcha blanca del sistema de aseguramiento de la calidad de la educación:Fase ordenación", "Agencia de calidad de la educación",
   2014, "Encuesta de Comportamiento Lector", "Consejo de las Culturas y las Artes",
-  2014, "Estudio diseño, validación y establecimiento de las propiedades de medición, índices e indicadores de la Primera Encuesta de Cultura Científica en Chile", "CONICYT",
-  2014, "Levantamiento de información y evaluación de resultados de beneficiarias del programa formación y capacitación de mujeres campesinas", "Fundación PRODEMU",
-  2014, "Estudio estimación del valor de la vida estadística asociado a contaminación atmosférica y accidentes de tránsito", "GreenLab DICTUC para Ministerio del Medio Ambiente",
-  2014, "Estudio Clima organizacional", "Servicio Impuestos Internos",
-  2014, "Levantamiento de información y evaluación de resultados de beneficiarias del programa formación y capacitación de mujeres campesinas", "Fundación PRODEMU",
 ) %>% 
   brief_entries(
     Estudio,
@@ -128,7 +103,7 @@ tribble(
 &nbsp;
 &nbsp;
 
-\newpage
+
 ## Marzo 2013 a Diciembre 2013
 
 **Coordinadora Propedéutico Ex Umbra in Solem**, de la Universidad Técnica Federico Santa María, Región de Valparaíso
@@ -170,7 +145,7 @@ Evaluación psicoeducativa a estudiantes con sospecha de necesidades educativas 
 **Profesional Programa Servicio País** de la Fundación para la superación de la pobreza, Región de Valparaíso.
 
 Profesional del programa en la comuna de Petorca. Elaboración del PLADECO participativo. Elaboración de la estrategia de intervención a mediano plazo del programa. Apoyo a servicios de salud municipal.
-
+\newpage
 
 # Experiencia académica
 
