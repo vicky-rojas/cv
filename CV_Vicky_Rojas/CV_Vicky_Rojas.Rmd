@@ -212,7 +212,15 @@ tribble(
 ## Idiomas
 
 * Español: Nativo
-* Inglés: Intermedio
+* Inglés: TOEIC 900 puntos.
+
+# Referencias
+
+* Magdalena Browne, Decana de la Facultad de Comunicaciones y Periodismo de la Universidad Adolfo Ibáñez. E-mail: magdalena.browne@uai.cl.
+
+* Alejandro Carrasco, Decano Facultad de Educación de la Pontificia Universidad Católica de Chile. E-mail: alejandro.carrasco@uc.cl.
+
+* Cristián Ayala, Director DESUC de la Pontificia Universidad Católica de Chile. E-mail: caayala@uc.cl.
 
 # Datos de contacto
 
