@@ -6,8 +6,11 @@ address: "Santiago, Chile"
 email: "vicky.cra@gmail.com"
 github: vicky-rojas
 linkedin: vicky-cra
+headcolor: 5DABD5
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
+aboutme: Soy una mujer del área de las ciencias sociales, psicóloga UV y magister en sociología de la UC, con habilidades para liderar proyectos y equipos, orientada a resultados y procesos de calidad.
+
 ---
 
 ```{r setup, include=FALSE}
@@ -41,135 +44,152 @@ tribble(
 
 &nbsp;
 
-## Abril 2019 - Actualidad
-
-**Jefa de Proyectos en Dirección de Estudios Sociales (DESUC)**, del Instituto de Sociología de la Pontificia Universidad Católica de Chile.
-
-* Coordinación de proyectos de investigación aplicada para instituciones públicas y privadas. 
-* Coordinadora de estudios cualitativos e investigadoras/es cualitativas/os.
-* Diseño y ejecución de análisis de datos cuantitativos. Especialista en estudios mixtos y triangulación de datos cuantitativos y cualitativos.
-
-A continuación, se presenta una selección de estudios en este periodo.
-
 ```{r}
 tribble(
-  ~Ano, ~Estudio, ~Mandante,
-  2020, "Estudio Medidas Implementadas COVID-19", "SENAMA",
-  2020, "Estudio de Conocimientos, Actitudes y Prácticas con relaicón a la violencia contra la niñez en Chile", "UNICEF, Chile",
-  2020, "Estudio Cultura Organizacional para la Fuerza Aérea de Chile: Alcances del desarrollo carrera y relación laboral",  "Fuerza Aérea de Chile",
-  2020, "Encuesta adversidades, Piloto","UC y Fundación para la confianza",
-  2020, "Encuesta movilidad post COVID-19", "Intervial, Fundación Gonzalo Rodriguez, y CONASET",
-  2019, "Estudio diagnóstico embarazo adolescentes",  "INJUV",
-  2019, "Estudio para caracterizar la mano de obra directa del rubro de la construcción en base a sus percepciones y a sus trayectorias formativas y laborales",  "Cámara Chilena de la Construcción",
-  2019, "Estudio de trayectorias laborales",  "Facultad de Letras UC",
-  2019, "Encuesta Nacional Bicentenario UC",  "Facultad de Ciencias Sociales UC",
-  2019, "Encuesta en niños, niñas y adolescentes migrantes en Chile", "UNICEF Chile, Fundación Colunga, World Vision",
-  2019, "Estudio de mercado magister en educación UC", "Facultad de educación UC",
-) %>% 
-  brief_entries(
-    Estudio,
-    Ano,
-    Mandante,
-  )
+  ~ Nombre, ~ Ano, ~ Institucion, ~ donde,
+  "Dirección de Estudios Sociales (DESUC) de la Pontificia Universidad Católica de Chile", "2018 a la fecha", "Jefe de proyectos", "Santiago, Chile") %>% 
+  detailed_entries(Nombre, Ano, Institucion, donde)
 ```
 
+_Funciones: Dirige proyectos de investigación aplicada para instituciones públicas y privadas. Coordina el área cualitativa de DESUC y del equipo de investigadoras/es cualitativos. Se especializa en estudios mixtos y triangulación de datos cuantitativos y cualitativos. Crea y cordina el área de comunicaciones de DESUC_.
+
+A continuación, se presenta una selección de estudios que ha dirigido o participado en este periodo:
+
+- 2020, Estudio de percepción de actores claves, en torno a medidas implementadas por confinamientos y desconfinamientos en el contexto COVID-19 en relación con personas mayores. Para Servicio Nacional del Adulto Mayor (SENAMA)
+- 2020, Estudio de Conocimientos, Actitudes y Prácticas con relaicón a la violencia contra la niñez en Chile. Para UNICEF Chile, en conjunto con Centro de Justicia y Sociedad UC.
+- 2020, Estudio Cultura Organizacional para la Fuerza Aérea de Chile: Alcances del desarrollo carrera y relación laboral. Para Fuerza Aérea de Chile.
+- 2020, Encuesta adversidades, Piloto. Para Fundación para la Confianza y UC.
+- 2020, Encuesta movilidad post COVID-19. Para Intervial, Fundación Gonzálo Rodriguez y CONASET.
+- 2019, Estudio diagnóstico embarazo adolescentes. Para Instituto Nacional de la Juventud.
+- 2019, Estudio para caracterizar la mano de obra directa del rubro de la construcción en base a sus percepciones y a sus trayectorias formativas y laborales. Para Cámara Chilena de la Construcción.
+- 2019, Estudio de trayectorias laborales. Para Facultad de Letras UC.
+- 2019, Encuesta Nacional Bicentenario UC. Para Facultad de Ciencias Sociales UC.
+- 2019, Encuesta en niños, niñas y adolescentes migrantes en Chile. Para UNICEF Chile, Fundación Colunga, World Vision, en conjunto con Centro de Justicia y Sociedad UC.
+- 2019, Estudio de mercado magister en educación UC. Para Facultad de Educación UC.
 
 &nbsp;
 &nbsp;
 
-## Diciembre 2013 a Marzo 2019
-
-**Investigadora en Dirección de Estudios Sociales (DESUC)**, del Instituto de Sociología de la Pontificia Universidad Católica de Chile.
-
-* Coordinación de proyectos de investigación aplicada para instituciones públicas y privadas. 
-* Investigadora cualitativa.
-* Investigadora cuantitativa.
-
-A continuación, se presenta una selección de estudios en este periodo.
 
 ```{r}
 tribble(
-  ~Ano, ~Estudio,  ~Mandante,
-  2018, "Estudio de Percepción y Posicionamiento Institucional del Ministerio Público", "Fiscalía de Chile",
-  2018, "Análisis multivariable estudio polivictimización", "Consejo de la Infancia",
-  2018, "Estudio sobre la situación de la protección de la maternidad/paternidad al interior del poder judicial", "Secretaría de género Poder Judicial",
-  2018, "Trayectorias de vida de egresados de Establecimientos Técnico-Profesionales", "OTIC SOFOFA",
-  2017, "Encuesta Alimentación y Adultos Mayores", "Centro de Aromas y Sabores DICTUC",
-  2017, "Evaluación De La Implementación Del Programa Me Conecto para Aprender",  "UNESCO y MINEDUC",
-  2017, "Diseño del Modelo de evaluación de la Nueva Educación Pública y Levantamiento de Línea Base",  "PNUD y MINEDUC",
-  2017, "Estudio género y academia", "Facultad de Ciencias Biológicas UC",
-  2017, "Ranking de empresas Mujeres en Alta Dirección IMAD", "Mujeres Empresarias",
-  2017, "Estudio Trabajo, Vejez y Salud", "Centro de Vejez y Envejecimiento UC",
-  2017, "Estudio Razones de uso de trámites presenciales", "Ministerio Secretaría General de la Presidencia",
-  2017, "Estudio de evaluación y usabilidad de los principales productos comunicacionales de la Agencia", "Agencia de la Calidad de la Educación",
-  2016, "Estudio Participación Cultural en Chile", "Ministerio de las Culturas y las Artes",
-  2016, "Estudio de medición de la línea base de satisfacción de los usuarios con los servicios entregados por instituciones públicas", "Ministerio de Hacienda",
-  2016, "Estudio Factores que influyen en el Allegamiento Interno y Externo", "Ministerio de Vivienda y Urbanismo",
-  2016, "Estudio Participación Cultural en Chile", "Ministerio de las Culturas y las Artes",
-  2016, "Informe de Mujeres en Alta Dirección IMAD", "Mujeres Empresarias",
-  2015, "Estudio diseño, validación y establecimiento de las propiedades de medición, índices e indicadores de la Primera Encuesta de Cultura Científica en Chile", "CONICYT",
-  2015, "Estudio sobre la calidad educativa desde la percepción de los actores claves del sistema: Fase cuantitativa", "Agencia de calidad de la educación",
-  2015, "Encuesta nacional de percepciones, opiniones y actitudes de sostenedores, equipos directivos y docentes sobre la marcha blanca del sistema de aseguramiento de la calidad de la educación:Fase ordenación", "Agencia de calidad de la educación",
-  2014, "Encuesta de Comportamiento Lector", "Consejo de las Culturas y las Artes",
-  2014, "Estudio diseño, validación y establecimiento de las propiedades de medición, índices e indicadores de la Primera Encuesta de Cultura Científica en Chile", "CONICYT",
-  2014, "Levantamiento de información y evaluación de resultados de beneficiarias del programa formación y capacitación de mujeres campesinas", "Fundación PRODEMU",
-  2014, "Estudio estimación del valor de la vida estadística asociado a contaminación atmosférica y accidentes de tránsito", "GreenLab DICTUC para Ministerio del Medio Ambiente",
-  2014, "Estudio Clima organizacional", "Servicio Impuestos Internos",
-  2014, "Levantamiento de información y evaluación de resultados de beneficiarias del programa formación y capacitación de mujeres campesinas", "Fundación PRODEMU",
-) %>% 
-  brief_entries(
-    Estudio,
-    Ano,
-    Mandante,
-  )
+  ~ Nombre, ~ Ano, ~ Institucion, ~ donde,
+  "Dirección de Estudios Sociales (DESUC) de la Pontificia Universidad Católica de Chile", "2013 a 2018", "Analista", "Santiago, Chile") %>% 
+  detailed_entries(Nombre, Ano, Institucion, donde)
 ```
 
+_Funciones: Coordinación asistente de proyectos de investigación aplicada para instituciones públicas y privadas. Investigadora cualitativa (levantamiento en terreno de entrevistas, grupos focales, observación, entre otros) y cuantitativa (análisis de datos). Elaboración de informes_.
+
+A continuación, se presenta una selección de estudios que ha participado en este periodo.
+
+
+- 2018, Estudio de Percepción y Posicionamiento Institucional del Ministerio Público, Fiscalía de Chile,
+- 2018, Análisis multivariable estudio polivictimización, Consejo de la Infancia,
+- 2018, Estudio sobre la situación de la protección de la maternidad/paternidad al interior del poder judicial, Secretaría de género Poder Judicial,
+- 2018, Trayectorias de vida de egresados de Establecimientos Técnico-Profesionales, OTIC SOFOFA,
+- 2017, Encuesta Alimentación y Adultos Mayores, Centro de Aromas y Sabores DICTUC,
+- 2017, Evaluación De La Implementación Del Programa Me Conecto para Aprender,  UNESCO y MINEDUC,
+- 2017, Diseño del Modelo de evaluación de la Nueva Educación Pública y Levantamiento de Línea Base,  PNUD y MINEDUC,
+- 2017, Estudio género y academia, Facultad de Ciencias Biológicas UC,
+- 2017, Ranking de empresas Mujeres en Alta Dirección IMAD, Mujeres Empresarias,
+- 2017, Estudio Trabajo, Vejez y Salud, Centro de Vejez y Envejecimiento UC,
+- 2017, Estudio Razones de uso de trámites presenciales, Ministerio Secretaría General de la Presidencia,
+- 2017, Estudio de evaluación y usabilidad de los principales productos comunicacionales de la Agencia, Agencia de la Calidad de la Educación,
+- 2016, Estudio Participación Cultural en Chile, Ministerio de las Culturas y las Artes,
+- 2016, Estudio de medición de la línea base de satisfacción de los usuarios con los servicios entregados por instituciones públicas, Ministerio de Hacienda,
+- 2016, Estudio Factores que influyen en el Allegamiento Interno y Externo, Ministerio de Vivienda y Urbanismo,
+- 2016, Estudio Participación Cultural en Chile, Ministerio de las Culturas y las Artes,
+- 2016, Informe de Mujeres en Alta Dirección IMAD, Mujeres Empresarias,
+- 2015, Estudio diseño, validación y establecimiento de las propiedades de medición, índices e indicadores de la Primera Encuesta de Cultura Científica en Chile, CONICYT,
+- 2015, Estudio sobre la calidad educativa desde la percepción de los actores claves del sistema: Fase cuantitativa, Agencia de calidad de la educación,
+- 2015, Encuesta nacional de percepciones, opiniones y actitudes de sostenedores, equipos directivos y docentes sobre la marcha blanca del sistema de aseguramiento de la calidad de la educación:Fase ordenación, Agencia de calidad de la educación,
+- 2014, Encuesta de Comportamiento Lector, Consejo de las Culturas y las Artes,
+- 2014, Estudio diseño, validación y establecimiento de las propiedades de medición, índices e indicadores de la Primera Encuesta de Cultura Científica en Chile, CONICYT,
+- 2014, Levantamiento de información y evaluación de resultados de beneficiarias del programa formación y capacitación de mujeres campesinas, Fundación PRODEMU,
+- 2014, Estudio estimación del valor de la vida estadística asociado a contaminación atmosférica y accidentes de tránsito, GreenLab DICTUC para Ministerio del Medio Ambiente,
+- 2014, Estudio Clima organizacional, Servicio Impuestos Internos,
+- 2014, Levantamiento de información y evaluación de resultados de beneficiarias del programa formación y capacitación de mujeres campesinas, Fundación PRODEMU.
 
 &nbsp;
 &nbsp;
 
 \newpage
-## Marzo 2013 a Diciembre 2013
 
-**Coordinadora Propedéutico Ex Umbra in Solem**, de la Universidad Técnica Federico Santa María, Región de Valparaíso
 
-Coordinación de la implementación del primer propedéutico de la USM, correspondiente a un ingreso alternativo para estudiantes con alto rendimiento, y bajos niveles socioeconómicos. 
+```{r}
+tribble(
+  ~ Nombre, ~ Ano, ~ Institucion, ~ donde,
+  "Instituto de Sociología de la Pontificia Universidad Católica de Chile", "2013", "Asistente de investigación", "Santiago, Chile") %>% 
+  detailed_entries(Nombre, Ano, Institucion, donde)
+```
 
-## Marzo 2012 a Diciembre 2013
+_Funciones: Coordinación de "Estudio sobre niños y niñas nacidos prematuros antes de las 32 semanas o menores a los 1500 gramos al nacer", en conjunto con Facultad de Medicina UC, para la profesora asistente PhD Viviana Salinas_.
 
-**Docente**, en Universidad de Santiago de Chile, Facultad de Ingeniería.
 
-Docente de asignaturas del plan de retención de la Facultad de Ingeniería, asociadas a "Métodos de Estudios" (asignatura colegiada con docente de matemáticas) y "Desarrollo Personal".
+```{r}
+tribble(
+  ~ Nombre, ~ Ano, ~ Institucion, ~ donde,
+  "ICSO de la Universidad Diego Portales", "2013", "Asistente de investigación", "Santiago, Chile") %>% 
+  detailed_entries(Nombre, Ano, Institucion, donde)
+```
 
-## Marzo 2013 a Diciembre 2013
+_Funciones: Asistente de investigación del Estudio Descriptivo de la Política Pública Nacional y Experiencias Internacionales Respecto a la Atención de NNA Vulnerados en sus Derechos y sus Familias_.
 
-**Asistente de investigación**, de la académica PhD Viviana Salinas del Instituto de Sociología UC.
+```{r}
+tribble(
+  ~ Nombre, ~ Ano, ~ Institucion, ~ donde,
+  "Universidad de Santiago de Chile", "2012 a 2013", "Docente", "Santiago, Chile") %>% 
+  detailed_entries(Nombre, Ano, Institucion, donde)
+```
 
-Coordinación de "Estudio sobre niños y niñas nacidos prematuros antes de las 32 semanas o menores a los 1500 gramos al nacer", en conjunto con Facultad de Medicina UC.
+_Funciones: Docente de asignaturas del plan de retención de la Facultad de Ingeniería, asociadas a "Métodos de Estudios" (asignatura colegiada con docente de matemáticas) y "Desarrollo Personal"_.
 
-## Julio 2006 a Febrero 2013
 
-**Psicóloga Programa Punto de Encuentro**, de la Universidad Técnica Federico Santa María, Región de Valparaíso
+```{r}
+tribble(
+  ~ Nombre, ~ Ano, ~ Institucion, ~ donde,
+  "Universidad Técnica Federico Santa María", "2012 a 2013", "Coordinadora Propedéutico", "Valparaíso, Chile") %>% 
+  detailed_entries(Nombre, Ano, Institucion, donde)
+```
 
-Coordinación de la implementación del programa en la Sede Viña del Mar de la universidad, orientado a la promoción de la salud estudiantil, apoyo académico, y apoyo psicosocial a estudiantes universitarios de las carreras técnicas de la USM.
+_Funciones: Coordinación de la implementación del primer propedéutico de la USM, correspondiente a un ingreso alternativo para estudiantes con alto rendimiento, y bajos niveles socioeconómicos_.
 
-## Marzo 2009 a Junio 2010
 
-**Psicóloga escolar**, del Colegio San Vicente de Valparaíso, Región de Valparaíso
+```{r}
+tribble(
+  ~ Nombre, ~ Ano, ~ Institucion, ~ donde,
+  "Universidad Técnica Federico Santa María", "2006 a 2012", "Psicóloga Programa Punto de Encuentro", "Viña del Mar, Chile") %>% 
+  detailed_entries(Nombre, Ano, Institucion, donde)
+```
 
-Ejecución de apoyo psicosocial a estudiantes de septimo básico a cuarto medio mediante talleres de desarrollo personal.
+_Funciones: Coordinación de la implementación del programa en la Sede Viña del Mar de la universidad, orientado a la promoción de la salud estudiantil, apoyo académico, y apoyo psicosocial a estudiantes universitarios de las carreras técnicas de la USM_.
 
-## Marzo 2006 a Junio 2006
+```{r}
+tribble(
+  ~ Nombre, ~ Ano, ~ Institucion, ~ donde,
+  "Colegio San Vicente de Valparaíso", "2009 a 2010", "Psicóloga escolar", "Valparaíso, Chile") %>% 
+  detailed_entries(Nombre, Ano, Institucion, donde)
+```
 
-**Psicóloga**, del Colegio Arco Iris Bajo el Sol de Quillota, Región de Valparaíso.
+_Funciones: Ejecución de apoyo psicosocial a estudiantes de septimo básico a cuarto medio mediante talleres de desarrollo personal_.
 
-Evaluación psicoeducativa a estudiantes con sospecha de necesidades educativas especiales. Derivación y seguimiento.
+```{r}
+tribble(
+  ~ Nombre, ~ Ano, ~ Institucion, ~ donde,
+  "Colegio Arco Iris Bajo el Sol", "2006", "Psicóloga escolar", "Quillota, Chile") %>% 
+  detailed_entries(Nombre, Ano, Institucion, donde)
+```
 
-## Febrero 2005 a Febrero 2006
+_Funciones: Evaluación psicoeducativa a estudiantes con sospecha de necesidades educativas especiales. Derivación y seguimiento_.
 
-**Profesional Programa Servicio País** de la Fundación para la superación de la pobreza, Región de Valparaíso.
+```{r}
+tribble(
+  ~ Nombre, ~ Ano, ~ Institucion, ~ donde,
+  "Fundación para la superación de la pobreza", "2005 a 2006", "Profesional Programa Servicio País", "Petorca, Chile") %>% 
+  detailed_entries(Nombre, Ano, Institucion, donde)
+```
 
-Profesional del programa en la comuna de Petorca. Elaboración del PLADECO participativo. Elaboración de la estrategia de intervención a mediano plazo del programa. Apoyo a servicios de salud municipal.
+_Funciones: Profesional del programa en la comuna de Petorca. Elaboración del PLADECO participativo. Elaboración de la estrategia de intervención a mediano plazo del programa. Apoyo a servicios de salud municipal._.
 
 
 # Experiencia académica
@@ -187,16 +207,27 @@ tribble(
 
 # Publicaciones y presentaciones en congresos
 
-```{r}
-tribble(
-  ~ Autores, ~ Ano, ~ Nombre, ~ Lugar,
-"Rivas, C., Hernandez, J., Rojas, V.", "2021", "Evidencia a través de la viviencia: una mirada subjetiva a 3 perfiles de embarazo juvenil en Chile", "12° Encuentro anual de la sociedad chilena de políticas públicas",
-  "Massone, F., Rojas, V., Zavala, J.", "2020", "Un dulce sin sabor. La performatividad de la política habitacional en el allegamiento", "Conferencia internacional Desarrollo y Cohesión Social",
-  "Contreras, J, Rojas V., Contreras L.", "2015", "Análisis de programas relacionados con la intervención en niños, niñas y adolescentes vulnerables en sus derechos: La realidad chilena", "Revista Psicoperspectivas",
- ) %>% 
-  detailed_entries(Autores, Ano, Nombre, Lugar)
 
-```
+## Publicaciones indexadas
+
+- Contreras, J., **Rojas, V.**, & Contreras, L. (2015). Análisis de programas relacionados con la intervención en niños, niñas y adolescentes vulnerados en sus derechos: La realidad chilena. _Psicoperspectivas_, 14(1), 89-102. https://dx.doi.org/10.5027/psicoperspectivas-Vol14-Issue1-fulltext-528
+
+## Publicaciones no indexadas
+
+- Herrera, S., Abusleme, M., Arenas, A., Berwart, R., Fernández, M., Kornfeld, R., Madero-Cabib, I., Quesney, I., **Rojas, V.** (2018). _Trabajo y personas mayores en Chile: Lineamientos para una política de inclusión laboral. Estudio nacional en personas entre 55 y 74 años_. OTIC Del Comercio Servicios y Turismo. Santiago: Primera edición. ISBN Nº978-956-14-2205-6. Registro propiedad intelectual: 287475. URL: https://sociologia.uc.cl/wp-content/uploads/2018/03/trabajo-y-psms-en-chile-web.pdf
+
+- Carrasco, A., **Rojas, V.**, Browne, M., San Martin, E. (2016). _La nueva ordenación de escuelas en Chile: Aprendizajes de la Marcha Blanca_. CEPPE Policy Brief N°13, CEPPE UC. URL: http://ceppe.uc.cl/images/contenido/policy-briefs/CEPPE_N13-La_nueva_ordenacion_de_escuelas_en_Chile-Aprendizajes_de_la_Marcha_Blanca.pdf
+
+- Browne, M., **Rojas, V.**, Ayala, C., Carrasco, A., Treviño, E., Hilliger, I., Villalobos, C., Morel, M., Bernasconi, A. (2017). _Colegios técnico-profesionales de Administración Delegada: Aprendizajes de un sistema de financiamiento a la oferta_. CEPPE Policy Brief N°17. URL: http://ceppe.uc.cl/images/contenido/policy-briefs/ceppe17-colegios_tcnico-profesionales_de_administracin_delegada_aprendizajes_de_un_sistema_de_financiamiento_a_la_oferta.pdf
+
+- Contreras, J., & **Rojas, V.** (2013). _Informe Descriptivo de la Política Pública Nacional y Experiencias Internacionales Respecto a la Atención de NNA Vulnerados en sus Derechos y sus Familias_. Santiago: Instituto de Investigación en Ciencias Sociales UDP. Recuperado de https://www.icso.cl/wp-content/uploads/2015/03/Informe-Final-Pol%C3%ADtica-P%C3%BAblica-NNA.pdf.
+
+
+## Presentaciones en Congresos
+
+- Rivas, C., Hernandez, J., **Rojas, V.** (2021). _Evidencia a través de la viviencia: una mirada subjetiva a 3 perfiles de embarazo juvenil en Chile_. 12° Encuentro anual de la sociedad chilena de políticas públicas.URL: https://www.sociedadpoliticaspublicas.cl/archivos/trabajo12/PoliticaSocial_RivasConzuelo.pdf
+
+- Massone, F., **Rojas, V.**, Zavala, J.(2020). _Un dulce sin sabor. La performatividad de la política habitacional en el allegamiento_. Conferencia internacional Desarrollo y Cohesión Social DESOC-COES.
 
 
 # Competencias laborales
@@ -213,6 +244,8 @@ tribble(
 
 * Español: Nativo
 * Inglés: TOEIC 900 puntos.
+
+\newpage
 
 # Referencias
 
