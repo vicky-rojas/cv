@@ -55,6 +55,21 @@ _Funciones: Dirige proyectos de investigación aplicada para instituciones públ
 
 A continuación, se presenta una selección de estudios que ha dirigido o participado en este periodo:
 
+- 2022, Pruebas cualitativas cuestionario CASEN 2022. Para Ministerio de Desarrollo Social y de la Familia.
+- 2022, Estudio sobre las caracteristicas y competencias de los cuidadores de personas mayores para CEVE UC.
+- 2022, Evaluación de la efectividad del impacto de las asesorías preventivas de los OAL en la gestión preventiva de las organizaciones, para Asociación Chilena de la Seguridad (ACHS).
+- 2022, Testeo de Entrevistas Cognitivas Estudio Economia Moral de los Desastres Socionaturales y el Estado, para Investigador Luis Maldonado, FOndecyt.
+- 2022, Encuesta Nacional de Salud Sexual, ENSSEX. Para Ministerio de Salud.
+- 2021, Diseño y prueba de cuestionario para Encuesta Longitudinal MICARE, para Instituto Milenio de Investigación del Cuidado.
+- 2021, Asistencia Tecnica Elaboración de cuestionario sobre Vida Independiente en adultos con discapacidad intelectual y/o del desarrollo, para Investigadores MICARE PUCV.
+- 2021, Estudio de Valoración de las Familias respecto a las estrategias educativas de Junji en contexto de pandemias 2021. Para Junta Nacional de Jardines Infantiles JUNJI.
+- 2021, Estudio para el levantamiento de información de trámites municipales, para Ministerio Secretaría General de la Presidencia SEGPRES.
+- 2021, Estudio Cultura Organizacional. Para Fresenius Kabi.
+- 2021, Encuesta Nacional Adversidades Tempranas 2021. Para académico Eduardo Valenzuela y Centro CUIDA. 
+- 2021, Evaluación procesos formativos FACH.
+- 2021, Analisis del Programa de Pasantías de perfeccionamiento para técnicos de nivel superior ("Técnicos para Chile") y su aporte a sus beneficiarios y al país. Para MINEDUC-PNUD.
+- 2021, Analisis de comentarios en consulta ciudadana Modernización al Empleo Público. Servicio Civil, Secretaría de la Modernización.
+- 2021, Levantamiento de datos cualitativos Modernización del Estado. Servicio Civil, Secretaría de la Modernización.
 - 2020, Estudio de percepción de actores claves, en torno a medidas implementadas por confinamientos y desconfinamientos en el contexto COVID-19 en relación con personas mayores. Para Servicio Nacional del Adulto Mayor (SENAMA)
 - 2020, Estudio de Conocimientos, Actitudes y Prácticas con relaicón a la violencia contra la niñez en Chile. Para UNICEF Chile, en conjunto con Centro de Justicia y Sociedad UC.
 - 2020, Estudio Cultura Organizacional para la Fuerza Aérea de Chile: Alcances del desarrollo carrera y relación laboral. Para Fuerza Aérea de Chile.
@@ -197,7 +212,8 @@ _Funciones: Profesional del programa en la comuna de Petorca. Elaboración del P
 ```{r}
 tribble(
   ~ Institucion, ~ Ano, ~ Cargo,
-  "Pontificia Universidad Católica de Chile", "2021", "Docente Técnicas cualitativas para estudios sociales, Diplomado en investigación cualitativa para estudios sociales",
+  "Pontificia Universidad Católica de Chile", "2022", "Docente Técnicas de Investigación Cualitativa SOL 133, Pregrado Carrera de Sociología",
+    "Pontificia Universidad Católica de Chile", "2021", "Docente Técnicas cualitativas para estudios sociales, Diplomado en investigación cualitativa para estudios sociales",
   "Pontificia Universidad Católica de Chile", "2018", "Docente Medición de la satisfacción en políticas públicas, Magister en Diseño y Análisis de Encuestas Sociales",
   "Universidad de Valparaíso", "2014", "Ayudante Proyectos educativos, carrera de Psicología", 
   "Universidad de Valparaíso", "2014", "Ayudante Psicología escolar, carrera de Psicología", ) %>% 
@@ -225,6 +241,8 @@ tribble(
 
 ## Presentaciones en Congresos
 
+- Rivas, C., Hernandez, J., **Rojas, V.** (2022).  _Medidas en pandemia para personas mayores: Aprendizajes hacia ciudades más amigables_. 13° Encuentro de la Sociedad Chilena de Políticas Públicas.
+
 - Rivas, C., Hernandez, J., **Rojas, V.** (2021). _Evidencia a través de la viviencia: una mirada subjetiva a 3 perfiles de embarazo juvenil en Chile_. 12° Encuentro anual de la sociedad chilena de políticas públicas.URL: https://www.sociedadpoliticaspublicas.cl/archivos/trabajo12/PoliticaSocial_RivasConzuelo.pdf
 
 - Massone, F., **Rojas, V.**, Zavala, J.(2020). _Un dulce sin sabor. La performatividad de la política habitacional en el allegamiento_. Conferencia internacional Desarrollo y Cohesión Social DESOC-COES.
@@ -238,6 +256,8 @@ tribble(
 * **SPSS** para análisis estadístico: Nivel avanzado
 * **Stata** para análisis estadístico: Nivel intermedio
 * **DeDoose** para el análisis cualitativo: Nivel intermedio
+* **Nvivo** para el análisis cualitativo: Nivel básico
+* **Atlas ti** para el análisis cualitativo: Nivel básico
 * **Microsoft Word, Excel y Power Point**: Nivel avanzado
 
 ## Idiomas
