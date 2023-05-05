@@ -9,7 +9,7 @@ linkedin: vicky-cra
 headcolor: 5DABD5
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
-aboutme: Soy una mujer del área de las ciencias sociales, psicóloga UV y magister en sociología de la UC, con habilidades para liderar proyectos y equipos, orientada a resultados y procesos de calidad.
+aboutme: Psicóloga UV y magister en sociología de la UC, con habilidades para liderar proyectos y equipos, orientada a resultados y procesos de calidad.
 
 ---
 
@@ -55,6 +55,10 @@ _Funciones: Dirige proyectos de investigación aplicada para instituciones públ
 
 A continuación, se presenta una selección de estudios que ha dirigido o participado en este periodo:
 
+- 2023, Servicio de Aplicación de Pruebas Cualitativas para la Medición de Victimización y Percepción de Inseguridad. Para Instituto Nacional de Estadísticas (INE).
+- 2022, La derecha en Chile en perspectiva comparada. Para Cristóbal Rovira Universidad Diego Portales.
+- 2022, Segunda Encuesta Nacional de Polivictimización en NNA. Para Subsecretaría de Prevención del Delito (SPD).
+- 2022, Estudios Kids Online. Para UNICEF, MINEDUC, y Académicos Magdalena Claro de CEPPE UC.
 - 2022, Pruebas cualitativas cuestionario CASEN 2022. Para Ministerio de Desarrollo Social y de la Familia.
 - 2022, Estudio sobre las caracteristicas y competencias de los cuidadores de personas mayores para CEVE UC.
 - 2022, Evaluación de la efectividad del impacto de las asesorías preventivas de los OAL en la gestión preventiva de las organizaciones, para Asociación Chilena de la Seguridad (ACHS).
@@ -127,8 +131,6 @@ A continuación, se presenta una selección de estudios que ha participado en es
 
 &nbsp;
 &nbsp;
-
-\newpage
 
 
 ```{r}
@@ -230,6 +232,8 @@ tribble(
 
 ## Publicaciones no indexadas
 
+- Rovira, C. (Coord) (2023). _Apoyo y rechazo a la ultraderecha en Chile_. Santiago de Chile : Fundación Friedrich Ebert en Chile. ISBN 978-956-6138-54-9. URL: https://library.fes.de/pdf-files/bueros/chile/19951.pdf 
+
 - Herrera, S., Abusleme, M., Arenas, A., Berwart, R., Fernández, M., Kornfeld, R., Madero-Cabib, I., Quesney, I., **Rojas, V.** (2018). _Trabajo y personas mayores en Chile: Lineamientos para una política de inclusión laboral. Estudio nacional en personas entre 55 y 74 años_. OTIC Del Comercio Servicios y Turismo. Santiago: Primera edición. ISBN Nº978-956-14-2205-6. Registro propiedad intelectual: 287475. URL: https://sociologia.uc.cl/wp-content/uploads/2018/03/trabajo-y-psms-en-chile-web.pdf
 
 - Carrasco, A., **Rojas, V.**, Browne, M., San Martin, E. (2016). _La nueva ordenación de escuelas en Chile: Aprendizajes de la Marcha Blanca_. CEPPE Policy Brief N°13, CEPPE UC. URL: http://ceppe.uc.cl/images/contenido/policy-briefs/CEPPE_N13-La_nueva_ordenacion_de_escuelas_en_Chile-Aprendizajes_de_la_Marcha_Blanca.pdf
@@ -258,14 +262,13 @@ tribble(
 * **DeDoose** para el análisis cualitativo: Nivel intermedio
 * **Nvivo** para el análisis cualitativo: Nivel básico
 * **Atlas ti** para el análisis cualitativo: Nivel básico
-* **Microsoft Word, Excel y Power Point**: Nivel avanzado
+* **Microsoft Word, Excel y Power Point**: Nivel intermedio
 
 ## Idiomas
 
 * Español: Nativo
 * Inglés: TOEIC 900 puntos.
 
-\newpage
 
 # Referencias
 
